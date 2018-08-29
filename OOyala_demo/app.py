@@ -6,10 +6,10 @@ from wtforms import Form, StringField, TextAreaField, validators
 app = Flask(__name__)
 
 # global veriables
-api_key = 'x2aGsyOtOUr3wnSDeUmqAShOpzFX.6DjLt'
-secrete = 'q6bXiUd9QhacL8wJC_VhlNWjUQxnEJWT-uhhk2ag'
+api_key = ''
+secrete = ''
 base_Url = 'https://api.ooyala.com/v2/'
-part_2 = '?api_key=x2aGsyOtOUr3wnSDeUmqAShOpzFX.6DjLt&expires=1507412437&signature='
+part_2 = '?api_key=[API_KEY]&expires=1507412437&signature='
 expires_t = '1507412437'
 
 
